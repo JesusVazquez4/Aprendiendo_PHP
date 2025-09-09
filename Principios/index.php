@@ -15,6 +15,12 @@
         <li>
             <a href="inicios/variables.php">Variables</a>
         </li>
+        <li>
+            <a href="inicios/echo_vs_print.php">Echo vs Print</a>
+        </li>
+        <li>
+            <a href="inicios/tipo_de_variables.php">Tipos de variables</a>
+        </li>
     </ul>
 </body>
 </html>
