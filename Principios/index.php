@@ -21,6 +21,9 @@
         <li>
             <a href="inicios/tipo_de_variables.php">Tipos de variables</a>
         </li>
+        <li>
+            <a href="inicios/strings.php">Strings</a>
+        </li>
     </ul>
 </body>
 </html>
