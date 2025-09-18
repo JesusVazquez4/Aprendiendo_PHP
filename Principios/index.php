@@ -24,6 +24,12 @@
         <li>
             <a href="inicios/strings.php">Strings</a>
         </li>
+        <li>
+            <a href="inicios/numbers.php">Numbers</a>
+        </li>
+        <li>
+            <a href="inicios/constantes.php">Constantes</a>
+        </li>
     </ul>
 </body>
 </html>
