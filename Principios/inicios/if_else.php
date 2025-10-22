@@ -18,9 +18,10 @@
         if($x <> $y){
             print("Para PHP no es lo mismo $x, que $y");
         }
+    ?>
 
-        echo '<br>';
-
+    <h2>if else</h2>
+    <?php
         if($z){
             echo 'z tiene valor';
         }else{
@@ -35,9 +36,10 @@
         } else {
             echo 'Si no es viernes o sábado, estoy de mal humor';
         }
+    ?>
 
-        echo '<br>';
-
+    <h2>if elseif else</h2>
+    <?php
         $t2 = date('l');
         if($t2 == 'Monday'){
             echo 'Hoy es mi día favorito.';
@@ -45,6 +47,41 @@
             echo 'Hoy es un dia de descanso y fresco para mi.';
         }else{
             echo 'Si no es viernes o sábado, estoy de mal humor.';
+        }
+    ?>
+
+    <h2>if corto</h2>
+    <?php
+        $t3 = date('j');
+        if ($t3 != 15 || $t3 != 30 || $t3 != 31) echo 'Hoy no es quincena';
+    ?>
+
+    <h2>if-else corto (ternario)</h2>
+    <?php
+        $t4 = date('j');
+        //   Condicion ? Verdadero : Falso
+        echo ($t4 == 15 || $t4 == 30 || $t4 == 31) ? 'Hoy es quincena' : 'Hoy no es quincena';
+    ?>
+
+    <h2>if-else anidado</h2>
+    <?php
+        $t5 = date('j');
+        $t6 = date('l');
+
+        if ($t5 == 15 || $t5 == 30 || $t5 == 31){
+            if ($t6 == 'Monday'){
+                echo 'Hoy es un día supremo para mi.';
+            }else{
+                echo 'Hoy se come bien.';
+            }
+        }else{
+            if ($t6 == 'Monday'){
+                echo 'Hoy es mi día favorito, aunque no coma bien.';
+            }elseif($t6 == 'Saturday' || $t6 == 'Sunday'){
+                echo 'Hoy es un dia de descanso y fresco para mi.';
+            }else{
+                echo 'Que dia más aburrido.';
+            }
         }
     ?>
 </body>

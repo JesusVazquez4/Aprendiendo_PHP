@@ -33,6 +33,9 @@
         <li>
             <a href="inicios/if_else.php">Estructura if-else</a>
         </li>
+        <li>
+            <a href="inicios/switch.php">Estructura switch</a>
+        </li>
     </ul>
 </body>
 </html>
